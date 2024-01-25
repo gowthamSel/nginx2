@@ -1,0 +1,4 @@
+docker run -d -p 8080:80 -e HOST_DATE="$(date)" --name my-nginx-container my-nginx-image
+
+
+docker run  -v /etc/localtime:/etc/localtime:ro 
